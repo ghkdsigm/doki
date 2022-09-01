@@ -2,9 +2,7 @@
 [build]
   functions = "functions" # netlify dev uses this directory to scaffold and serve your functions
   command: npm run build
-  commandOrigin: ui
   publish: /opt/build/repo/dist
-  publishOrigin: ui
 
 
 # note: each of these fields are OPTIONAL
