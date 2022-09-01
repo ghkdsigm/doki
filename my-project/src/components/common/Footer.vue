@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="bg-gray-100">
-            <div class="border-t border-slate-900/5 py-10">
+            <div class="border-t border-slate-900/5 lg:py-10 py-4">
                 <div class="mx-auto text-center w-auto text-slate-900 mb-5">
                     <a class="flex justify-center">
                         <img class="h-8 w-auto sm:h-10 mr-4" src="https://flowbite.com/docs/images/logo.svg" alt="">
