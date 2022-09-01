@@ -5,7 +5,7 @@
                 <div class="mx-auto text-center w-auto text-slate-900 mb-5">
                     <a class="flex justify-center">
                         <img class="h-8 w-auto sm:h-10 mr-4" src="https://flowbite.com/docs/images/logo.svg" alt="">
-                        <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">DOKI</span>
+                        <span class="self-center text-xl font-semibold whitespace-nowrap">DOKI</span>
                     </a>
                 </div>           
                 <p class="mt-5 text-center text-sm leading-6 text-slate-500">© 2022 DOKI Inc. All rights reserved.</p>
