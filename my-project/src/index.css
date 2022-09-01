@@ -5,3 +5,10 @@ html {scrollbar-face-color:#a5a5a5;scrollbar-track-color: #1b1b1b;scrollbar-arro
 body {font-family: 'Roboto', 'Noto Sans KR', sans-serif;font-size:16px; font-weight: 300;}
 
 .router-link-exact-active span {color:rgb(29 78 216)}
+
+.artcolor {    
+    background:-webkit-linear-gradient(315deg,#7d2ad5 25%,#3355ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
