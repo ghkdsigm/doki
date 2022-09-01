@@ -2,7 +2,7 @@
   <div class="">
     <!--메인탑-->
     <div>
-      <div class="relative overflow-hidden bg-white py-40">
+      <div class="relative overflow-hidden bg-white lg:py-40 py-0">
         <div class="relative mx-auto sm:static">
           <div class="sm:max-w-lg">
             <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
