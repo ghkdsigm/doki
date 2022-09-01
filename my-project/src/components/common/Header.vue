@@ -7,7 +7,7 @@
         </router-link>        
         <div class="flex items-center lg:order-2">
             <a href="#" class="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">Log in</a>
-            <!-- <router-link to="/modelselect" class="bg-blue-700 text-white hover:text-white hover:bg-blue-800 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none dark:focus:ring-gray-800">간편 견적내기</router-link> -->
+            <router-link to="/modelselect" class="bg-blue-700 text-white hover:text-white hover:bg-blue-800 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none dark:focus:ring-gray-800">간편 견적내기</router-link>
         </div>
         <div class="justify-between items-center w-full flex lg:w-auto lg:order-1">
             <router-link :to="route.path" class="lg:px-4 lg:text-lg text-sm" v-for="route in routes" :key="route"> 
