@@ -12,7 +12,7 @@
             <p class="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">쉽고 빠르게 합리적인 비용으로 다양한 테마의 퍼블리싱 웹사이트를 구매하실 수 있습니다.</p>
             <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div class="rounded-md shadow">
-                <router-link to="/introduce" class="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg">더 알아보기</router-link>
+                <router-link to="/introduce" class="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:text-white hover:bg-indigo-700 md:py-4 md:px-10 md:text-lg">더 알아보기</router-link>
               </div>
               <div class="mt-3 sm:mt-0 sm:ml-3">
                 <router-link to="/modelselect" class="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-100 px-8 py-3 text-base font-medium text-indigo-700 hover:bg-indigo-200 md:py-4 md:px-10 md:text-lg">간편 견적</router-link>

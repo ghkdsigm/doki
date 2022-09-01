@@ -1,10 +1,10 @@
 <template>
     <div class="bg-white border-gray-200 px-4 lg:px-6 py-2.5">
       <div class="flex flex-wrap justify-between items-center lg:container mx-auto">
-        <router-link to="/" class="flex items-center">
+        <a href="/" class="flex items-center">
             <img class="h-8 w-auto sm:h-10 mr-4" src="https://flowbite.com/docs/images/logo.svg" alt="">
-            <span class="self-center text-xl font-semibold whitespace-nowrap">DOKI</span>
-        </router-link>        
+            <span class="self-center text-xl font-semibold whitespace-nowrap text-black">DOKI</span>
+        </a>        
         <div class="flex items-center lg:order-2">
             <a href="#" class="text-gray-800 hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none ">Log in</a>
             <router-link to="/modelselect" class="bg-blue-700 text-white hover:text-white hover:bg-blue-800 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none ">간편 견적내기</router-link>
