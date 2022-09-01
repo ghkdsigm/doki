@@ -29,7 +29,7 @@ import BackHome from '../components/BackHome.vue';
   /*컴포넌트 이동 트랜지션*/
   .route-enter-from {
     opacity: 0;
-    transform: translateX(100px);
+    transform: translateX(100px); 
   }
   .route-enter-active{
     transition: all 0.1s ease-out;
