@@ -4,7 +4,7 @@
             <div class="border-t border-slate-900/5 lg:py-10 py-4">
                 <div class="mx-auto text-center w-auto text-slate-900 mb-5">
                     <a class="flex justify-center">
-                        <img class="h-8 w-auto sm:h-10 mr-4" src="https://flowbite.com/docs/images/logo.svg" alt="">
+                        <img class="h-8 w-auto sm:h-10 mr-2" src="https://flowbite.com/docs/images/logo.svg" alt="">
                         <span class="self-center text-xl font-semibold whitespace-nowrap">DOKI</span>
                     </a>
                 </div>           
