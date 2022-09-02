@@ -2,7 +2,7 @@
     <div class="bg-white border-gray-200 px-4 lg:px-6 py-2.5">
       <div class="flex flex-wrap justify-between items-center lg:container mx-auto">
         <a href="/" class="flex items-center">
-            <img class="h-8 w-auto sm:h-10 mr-4" src="https://flowbite.com/docs/images/logo.svg" alt="">
+            <img class="h-8 w-auto sm:h-10 mr-2" src="https://flowbite.com/docs/images/logo.svg" alt="">
             <span class="self-center text-xl font-semibold whitespace-nowrap text-black">DOKI</span>
         </a>        
         <div class="flex items-center lg:order-2">
