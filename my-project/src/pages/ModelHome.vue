@@ -39,7 +39,7 @@
                           data-bs-toggle="dropdown"
                           aria-expanded="false"
                         >
-                          <p ref="selectResult">
+                          <p ref="selectResult" class="font-light">
                             기본형
                           </p>
                           <svg
