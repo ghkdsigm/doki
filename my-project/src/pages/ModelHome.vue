@@ -39,7 +39,9 @@
                           data-bs-toggle="dropdown"
                           aria-expanded="false"
                         >
-                          기본형
+                          <p ref="selectResult">
+                            기본형
+                          </p>
                           <svg
                             aria-hidden="true"
                             focusable="false"
@@ -80,7 +82,7 @@
                           "
                           aria-labelledby="dropdownMenuButton2"
                         >
-                          <li>
+                          <li v-for="item in selarray" :key="item.id" @click="selectli(item.id, item.name)" :class="selectedId === item.id ? 'my-selected-item-class':null">
                             <a
                               class="
                                 dropdown-item
@@ -96,64 +98,7 @@
                                 hover:bg-gray-100
                               "
                               href="#"
-                              >기본형</a
-                            >
-                          </li>
-                          <li>
-                            <a
-                              class="
-                                dropdown-item
-                                text-sm
-                                py-4
-                                px-4
-                                font-normal
-                                block
-                                w-full
-                                whitespace-nowrap
-                                bg-transparent
-                                text-gray-200
-                                hover:bg-gray-100
-                              "
-                              href="#"
-                              >확장형</a
-                            >
-                          </li>
-                          <li>
-                            <a
-                              class="
-                                dropdown-item
-                                text-sm
-                                py-4
-                                px-4
-                                font-normal
-                                block
-                                w-full
-                                whitespace-nowrap
-                                bg-transparent
-                                text-gray-200
-                                hover:bg-gray-100
-                              "
-                              href="#"
-                              >프리미엄</a
-                            >
-                          </li>
-                          <li>
-                            <a
-                              class="
-                                dropdown-item
-                                text-sm
-                                py-4
-                                px-4
-                                font-normal
-                                block
-                                w-full
-                                whitespace-nowrap
-                                bg-transparent
-                                text-gray-200
-                                hover:bg-gray-100
-                              "
-                              href="#"
-                              >커스텀</a
+                              >{{item.name}}</a
                             >
                           </li>
                         </ul>
@@ -195,7 +140,7 @@
   import ModelHeader from '../components/common_m/ModelHeader.vue'
   import ModelSide from '../components/common_m/ModelSide.vue';
   import BackHome from '../components/BackHome.vue';
-  import { onMounted } from 'vue'
+  import { ref, onMounted } from 'vue'
 
   export default {
     components:{
@@ -203,7 +148,30 @@
         ModelSide,
         BackHome
     },
-    
+    setup(){
+      const selectedId = ref(1)
+      const selectedName = ref(null)
+      const displayCategory = ref(false)
+      const selarray = ref([{id: 1,name: "기본형"},{id: 2,name: "확장형"},{id: 3,name: "프리미엄"},{id: 4,name: "커스텀"}])
+      const selectResult = ref('')
+      
+      const selectli = (itemId, itemName) => {
+          selectedId.value = itemId
+          selectedName.value = itemName          
+          displayCategory.value = !displayCategory.value
+          selectResult.value.textContent = selectedName.value
+      }
+
+
+      return{
+        selarray,
+        selectedId,
+        selectedName,
+        selectli,
+        displayCategory,
+        selectResult
+      }
+    }
   }
   </script>
   
