@@ -1,8 +1,5 @@
 <template>
     <div class="">
-      <div>
-        <back-home></back-home>
-      </div>
       <!--메인섹션-->
       <div class="" ref="scrollRight">      
         <router-view v-slot="{ Component }">
@@ -17,11 +14,8 @@
   <script>
   import { ref,onBeforeMount,onMounted, computed, onBeforeUnmount, watchEffect, onUpdated  } from 'vue'
   import { useStore, mapGetters } from 'vuex'
-import BackHome from '../components/BackHome.vue';
+
   export default {
-    components:{
-    BackHome
-},    
   }
   </script>
   
