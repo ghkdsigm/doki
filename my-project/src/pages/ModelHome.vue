@@ -67,7 +67,6 @@
                             hidden
                             bg-neutral-900
                             border-b
-                            border-l
                             border-r
                             border-neutral-800
                             text-base
@@ -76,7 +75,6 @@
                             list-none
                             text-left
                             shadow-lg
-                            hidden
                             bg-clip-padding
                             selectmeunu
                           "
@@ -86,16 +84,18 @@
                             <a
                               class="
                                 dropdown-item
-                                text-sm
+                                text-lg
                                 py-4
                                 px-6
-                                font-normal
+                                font-extralight
                                 block
                                 w-full
                                 whitespace-nowrap
                                 bg-transparent
-                                text-gray-200
-                                hover:bg-gray-100
+                                text-gray-400
+                                hover:bg-black
+                                hover:text-white
+                                hover:font-normal
                               "
                               href="#"
                               >{{item.name}}</a
@@ -125,9 +125,12 @@
               Content here
             </div>
 
-            <div class="w-1/4 p-10 text-white">
-              <div>1111</div>
-              <div>2222</div>
+            <div class="w-1/4 text-white">
+              <div class="orderSel p-10">1111</div>
+              <div class="orderBt flex items-center border-t border-neutral-800 p-10 justify-between">
+                <div class="border border-gray-200 h-full bt flex items-center justify-center hover:bg-white hover:text-black">이전</div>
+                <div class="border border-gray-200 h-full bt flex items-center justify-center hover:bg-white hover:text-black">다음</div>
+              </div>
             </div>
           </div>
         </div>
@@ -177,5 +180,17 @@
   
   <style scoped>
     .selectmeunu {left:1px !important;}
-  
+    .orderSel {
+      height:calc(100% - 130px);
+    }
+    .orderBt {
+      height:130px;
+    }
+    .orderBt .bt {
+      width: calc(50% - 5px);
+      text-align:center;
+    }
+    .orderBt .bt {
+      cursor: pointer;
+    }
   </style>
