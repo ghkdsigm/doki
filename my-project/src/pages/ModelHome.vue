@@ -4,7 +4,7 @@
       <ModelSide/> -->
       <div class="min-h-full w-full bg-neutral-900">
         <div class="min-h-screen flex flex-col w-full">
-          <div class="w-full border-b border-neutral-800 h-16 px-4 items-center flex">
+          <div class="w-full border-b border-neutral-800 h-16 items-center flex">
             <div class="flex justify-between w-full items-center h-full">
               <div class="text-white flex w-full flex-row h-full">
                 <div class="flex items-center basis-1/6 border-r border-neutral-800 w-full">
@@ -114,7 +114,7 @@
                   
                 </div>
               </div>
-              <div>                
+              <div class="pr-4 h-full flex items-center">                
                 <back-home></back-home>
               </div>
             </div>

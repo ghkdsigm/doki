@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <router-link to="/">
-      <div>
+  <div class="flex h-full items-center">
+    <router-link to="/" class="flex h-full items-center">
+      <div class="flex h-full items-center">
         <span class="p-2 inline-block hover:bg-zinc-800 focus-visible:ring-2 focus-visible:ring-green-400 rounded-full">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="w-5">
           <path transform="rotate(-45 12 12)" d="M0.43 10.84H23.57V13.15H0.43z" fill="white" ></path>
