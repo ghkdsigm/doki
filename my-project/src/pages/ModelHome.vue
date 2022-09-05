@@ -88,7 +88,7 @@
                                 dropdown-item
                                 text-sm
                                 py-4
-                                px-4
+                                px-6
                                 font-normal
                                 block
                                 w-full
