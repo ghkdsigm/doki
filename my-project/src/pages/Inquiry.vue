@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-        class="flex flex-wrap items-center font-sans mx-auto w-full py-20">
+        class="flex flex-wrap items-center font-sans mx-auto w-full py-10">
         <!-- Column-1 -->
         <div class="px-3 py w-full lg:w-2/5">
           <div class="sm:max-w-lg">
@@ -169,7 +169,7 @@
 
     <!-- Parallax Background -->
     <div
-        class="flex flex-col w-full h-[500px] bg-cover bg-fixed bg-center flex justify-center items-center"
+        class="flex-col w-full h-[500px] bg-cover bg-fixed bg-center flex justify-center items-center"
         style="
             background-image: url(https://images.unsplash.com/photo-1642427749670-f20e2e76ed8c?auto=format&fit=crop&w=880&q=80);
         ">
