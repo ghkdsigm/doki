@@ -64,7 +64,7 @@
     <div class="">
       <div class="">
         <div class="mx-auto max-w-2xl py-12 sm:py-12 lg:max-w-none lg:py-20">
-          <h2 class="text-2xl font-bold text-gray-900">Services</h2>
+          <h2 class="text-2xl font-bold text-gray-900">Process</h2>
 
           <div class="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
             <div class="group relative">
