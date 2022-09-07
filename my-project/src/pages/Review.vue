@@ -193,7 +193,7 @@
       </div>
     </div>
     <!--글쓰기-->
-    <div class="w-full mt-12 mb-20 flex px-6 py-6 bg-slate-100">
+    <div class="w-full mt-12 mb-20 flex px-8 py-6 bg-slate-100">
       <div class="mx-2 w-2/12 pr-4 h-12 flex justify-between px-3 items-center border border-transparent bg-white focus-within:border-slate-300 rounded-lg">
         <div class="w-full">
           <input type="text" class="w-full bg-transparent outline-none placeholder:text-slate-400" placeholder="프로젝트명" />
