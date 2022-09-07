@@ -149,7 +149,7 @@
 
 
 
-      <div class="grid gap-6 mt-16 -mx-6 sm:gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mb-20">
+      <div class="grid gap-6 lg:mt-16 lg:mx-6 sm:gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mb-20 sm:mx-6 mx-4">
         <div class="px-6 py-4 transition-colors duration-200 transform rounded-lg bg-gray-100 hover:bg-gray-300 text-black hover:text-black">
             <p class="text-lg font-medium">Intro</p>
             <h4 class="mt-2 text-4xl font-semibold">$19 <span class="text-base font-normal text-gray-600 dark:text-gray-400">/ Month</span></h4>

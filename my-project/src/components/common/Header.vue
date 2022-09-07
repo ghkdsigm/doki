@@ -13,8 +13,8 @@
             <router-link :to="route.path" class="lg:px-4 lg:text-lg text-sm" v-for="route in routes" :key="route"> 
                 <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
                     <li>
-                        <div v-if="route.meta.isMenu" class="block py-2 pr-4 pl-3 rounded bg-primary-700 lg:bg-transparent">
-                            <span class="hover:text-blue-700 text-gray-700 lg:text-lg text-base font-medium" >{{route.title}}</span>
+                        <div v-if="route.meta.isMenu" class="block py-2 lg:pr-4 lg:pl-3 pl-1 pr-2 rounded bg-primary-700 lg:bg-transparent">
+                            <span class="hover:text-blue-700 text-gray-700 lg:text-lg text-sm font-medium" >{{route.title}}</span>
                         </div>
                     </li>
                 </ul>  

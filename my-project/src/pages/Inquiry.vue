@@ -20,7 +20,7 @@
             <!-- Illustrations Container -->
             <div class="flex justify-center items-center">
                 <svg
-                    class="block max-w-full h-auto align-middle lg:max-w-lg"
+                    class="block max-w-full lg:h-auto align-middle lg:max-w-lg h-[300px] lg:mt-0 mt-6"
                     xmlns="http://www.w3.org/2000/svg"
                     height="400"
                     viewBox="0 0 524.67004 627.58314"
@@ -173,11 +173,11 @@
         style="
             background-image: url(https://images.unsplash.com/photo-1642427749670-f20e2e76ed8c?auto=format&fit=crop&w=880&q=80);
         ">
-        <h1 class="text-white text-5xl font-semibold mt-20 mb-10">
+        <h1 class="text-white lg:text-5xl text-2xl font-semibold mt-20 lg:mb-10">
             웹 퍼블리싱 제작 문의
         </h1>
 
-        <span class="text-center font-bold my-20 text-white/90">
+        <span class="text-center font-bold lg:my-20 my-10 text-white/90">
             <p class="text-white/90 hover:text-white block font-light text-xl py-1">
                 <span class="mr-2 font-medium">제작의뢰</span> +82 10.9406-3935
             </p>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="h-full flex pt-10">
+    <div class="h-full flex lg:pt-10">
       <!-- sidebar 2 -->
       <!-- <div class="h-full w-96 bg-slate-50 border-r flex flex-col">
         <div class="h-full">
@@ -89,7 +89,7 @@
                 </div>
                 <!-- messages -->
                 <div class="w-full flex flex-start overflow-y-auto">
-                    <div class="w-1/2">
+                    <div class="lg:w-1/2 w-full">
                         <div class="flex items-center">                          
                             <p class="font-semibold ml-3 text-lg text-slate-600"><a href="#" target="_blank" class="mr-2 text-blue-700">하이퍼네스트</a>미스터킴 <span
                                     class="text-slate-400 text-xs font-light">3:21 PM</span></p>
@@ -132,7 +132,7 @@
                 </div>
                 <!-- messages -->
                 <div class="w-full flex flex-start">
-                    <div class="w-1/2">
+                    <div class="lg:w-1/2 w-full">
                         <div class="flex items-center">                        
                             <p class="font-semibold ml-3 text-lg text-slate-600"><a href="#" target="_blank" class="mr-2 text-blue-700">남양시럽</a>자전거탄풍경 <span
                                     class="text-slate-400 text-xs font-light">3:21 PM</span></p>
@@ -154,7 +154,7 @@
                 </div>
                 <!-- messages -->
                 <div class="w-full flex flex-start">
-                    <div class="w-1/2">
+                    <div class="lg:w-1/2 w-full">
                         <div class="flex items-center">                        
                             <p class="font-semibold ml-3 text-lg text-slate-600"><a href="#" target="_blank" class="mr-2 text-blue-700">제일섬유</a>Jaeil <span
                                     class="text-slate-400 text-xs font-light">3:21 PM</span></p>
@@ -193,28 +193,28 @@
       </div>
     </div>
     <!--글쓰기-->
-    <div class="w-full mt-12 mb-20 flex px-8 py-6 bg-slate-100">
-      <div class="mx-2 w-2/12 pr-4 h-12 flex justify-between px-3 items-center border border-transparent bg-white focus-within:border-slate-300 rounded-lg">
+    <div class="w-full mt-12 mb-20 lg:flex block px-8 py-6 bg-slate-100">
+      <div class="lg:my-0 mb-4 mx-2 lg:w-2/12 w-full pr-4 h-12 flex justify-between px-3 items-center border border-transparent bg-white focus-within:border-slate-300 rounded-lg">
         <div class="w-full">
           <input type="text" class="w-full bg-transparent outline-none placeholder:text-slate-400" placeholder="프로젝트명" />
         </div>
       </div>
-      <div class="mx-2 w-2/12 pr-4 h-12 flex justify-between px-3 items-center border border-transparent bg-white focus-within:border-slate-300 rounded-lg">
+      <div class="lg:my-0 mb-4 mx-2 lg:w-2/12 w-full pr-4 h-12 flex justify-between px-3 items-center border border-transparent bg-white focus-within:border-slate-300 rounded-lg">
         <div class="w-full">
           <input type="text" class="w-full bg-transparent outline-none placeholder:text-slate-400" placeholder="프로젝트URL" />
         </div>
       </div>
-      <div class="mx-2 w-2/12 pr-4 h-12 flex justify-between px-3 items-center border border-transparent bg-white focus-within:border-slate-300 rounded-lg">
+      <div class="lg:my-0 mb-4 mx-2 lg:w-2/12 w-full pr-4 h-12 flex justify-between px-3 items-center border border-transparent bg-white focus-within:border-slate-300 rounded-lg">
         <div class="w-full">
           <input type="text" class="w-full bg-transparent outline-none placeholder:text-slate-400" placeholder="닉네임" />
         </div>
       </div>
-      <div class="mx-2 w-5/12 h-12 flex justify-between px-3 items-center border border-transparent bg-white focus-within:border-slate-300 rounded-lg">
+      <div class="lg:my-0 mb-4 mx-2 lg:w-5/12 w-full h-12 flex justify-between px-3 items-center border border-transparent bg-white focus-within:border-slate-300 rounded-lg">
         <div class="w-full">
           <input type="text" class="w-full bg-transparent outline-none placeholder:text-slate-400" placeholder="리뷰 남기기" />
         </div>
       </div>
-      <div class="mx-2 w-1/12 h-12 flex justify-between items-center border border-transparent bg-white focus-within:border-slate-300 rounded-lg">
+      <div class="mx-2 lg:w-1/12 w-full h-12 flex justify-between items-center border border-transparent bg-white focus-within:border-slate-300 rounded-lg">
         <div class="w-full h-full flex justify-center">
           <button type="button" class="w-full h-full bg-blue-500 hover:bg-blue-700 hover:text-white text-white">등록하기</button>
         </div>
