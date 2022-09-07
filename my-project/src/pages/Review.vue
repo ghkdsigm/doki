@@ -81,25 +81,27 @@
           </div>
           <div class="h-full px-10 py-4">
               <!-- message container -->
-              <div class="text-center  my-5">
-                  <hr class="-mb-3">
-                  <span class="text-base text-slate-300 font-light bg-white px-3 -mt-3">Wednesday, Feburary
-                      5</span>
-              </div>
-              <!-- messages -->
-              <div class="w-full flex flex-start overflow-y-auto">
-                  <div class="w-1/2">
-                      <div class="flex items-center">                          
-                          <p class="font-semibold ml-3 text-lg text-slate-600"><a href="#" target="_blank" class="mr-2 text-blue-700">하이퍼네스트</a>미스터킴 <span
-                                  class="text-slate-400 text-xs font-light">3:21 PM</span></p>
-                      </div>
+              <div>
+                <div class="text-center  my-5">
+                    <hr class="-mb-3">
+                    <span class="text-base text-slate-300 font-light bg-white px-3 -mt-3">Wednesday, Feburary
+                        5</span>
+                </div>
+                <!-- messages -->
+                <div class="w-full flex flex-start overflow-y-auto">
+                    <div class="w-1/2">
+                        <div class="flex items-center">                          
+                            <p class="font-semibold ml-3 text-lg text-slate-600"><a href="#" target="_blank" class="mr-2 text-blue-700">하이퍼네스트</a>미스터킴 <span
+                                    class="text-slate-400 text-xs font-light">3:21 PM</span></p>
+                        </div>
 
-                      <div class="mt-3 w-full bg-slate-100 p-4 rounded-b-xl rounded-tr-xl">
-                          <p class=" text-base text-slate-500">
-                              감사합니다. 덕분에 프로젝트 일정에 맞춰 잘 마무리지었어요!!
-                          </p>
-                      </div>
-                  </div>
+                        <div class="mt-3 w-full bg-slate-100 p-4 rounded-b-xl rounded-tr-xl">
+                            <p class=" text-base text-slate-500">
+                                감사합니다~ 덕분에 프로젝트 일정에 맞춰 잘 마무리지었어요!!
+                            </p>
+                        </div>
+                    </div>
+                </div>
               </div>
               <!-- me -->
               <!-- <div class="w-full flex justify-end mt-3">
@@ -122,25 +124,49 @@
                       </div>
                   </div>
               </div> -->
-              <div class="text-center  my-5">
-                  <hr class="-mb-3">
-                  <span class="text-base text-slate-300 font-light bg-white px-3 -mt-3">Today, 2:15 AM
-                      5</span>
-              </div>
-              <!-- messages -->
-              <div class="w-full flex flex-start">
-                  <div class="w-1/2">
-                      <div class="flex items-center">                        
-                          <p class="font-semibold ml-3 text-lg text-slate-600"><a href="#" target="_blank" class="mr-2 text-blue-700">남양시럽</a>자전거탄풍경 <span
-                                  class="text-slate-400 text-xs font-light">3:21 PM</span></p>
-                      </div>
+              <div>
+                <div class="text-center  my-5">
+                    <hr class="-mb-3">
+                    <span class="text-base text-slate-300 font-light bg-white px-3 -mt-3">Today, 2:15 AM
+                        5</span>
+                </div>
+                <!-- messages -->
+                <div class="w-full flex flex-start">
+                    <div class="w-1/2">
+                        <div class="flex items-center">                        
+                            <p class="font-semibold ml-3 text-lg text-slate-600"><a href="#" target="_blank" class="mr-2 text-blue-700">남양시럽</a>자전거탄풍경 <span
+                                    class="text-slate-400 text-xs font-light">3:21 PM</span></p>
+                        </div>
 
-                      <div class="mt-3 bg-slate-100 p-4 rounded-b-xl rounded-tr-xl">
-                          <p class=" text-base text-slate-500">
-                              감사해욥!!
-                          </p>
-                      </div>
-                  </div>
+                        <div class="mt-3 bg-slate-100 p-4 rounded-b-xl rounded-tr-xl">
+                            <p class=" text-base text-slate-500">
+                                감사해욥!!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div>
+                <div class="text-center  my-5">
+                    <hr class="-mb-3">
+                    <span class="text-base text-slate-300 font-light bg-white px-3 -mt-3">Today, 2:15 AM
+                        5</span>
+                </div>
+                <!-- messages -->
+                <div class="w-full flex flex-start">
+                    <div class="w-1/2">
+                        <div class="flex items-center">                        
+                            <p class="font-semibold ml-3 text-lg text-slate-600"><a href="#" target="_blank" class="mr-2 text-blue-700">제일섬유</a>Jaeil <span
+                                    class="text-slate-400 text-xs font-light">3:21 PM</span></p>
+                        </div>
+
+                        <div class="mt-3 bg-slate-100 p-4 rounded-b-xl rounded-tr-xl">
+                            <p class=" text-base text-slate-500">
+                                결과 괜찮게 잘 나왔습니다. 고맙습니다. 다음에도 잘 부탁드릴게요.
+                            </p>
+                        </div>
+                    </div>
+                </div>
               </div>
           </div>
           <!-- <div class="w-full px-5 py-3">
