@@ -168,22 +168,27 @@
     </div>
     <!--글쓰기-->
     <div class="w-full mt-12 mb-20 flex px-6 py-6 bg-slate-100">
-      <div class="mx-2 w-1/6 pr-4 h-12 flex justify-between px-3 items-center border border-transparent bg-white focus-within:border-slate-300 rounded-lg">
+      <div class="mx-2 w-2/12 pr-4 h-12 flex justify-between px-3 items-center border border-transparent bg-white focus-within:border-slate-300 rounded-lg">
         <div class="w-full">
           <input type="text" class="w-full bg-transparent outline-none placeholder:text-slate-400" placeholder="프로젝트명" />
         </div>
       </div>
-      <div class="mx-2 w-1/6 pr-4 h-12 flex justify-between px-3 items-center border border-transparent bg-white focus-within:border-slate-300 rounded-lg">
+      <div class="mx-2 w-2/12 pr-4 h-12 flex justify-between px-3 items-center border border-transparent bg-white focus-within:border-slate-300 rounded-lg">
+        <div class="w-full">
+          <input type="text" class="w-full bg-transparent outline-none placeholder:text-slate-400" placeholder="프로젝트URL" />
+        </div>
+      </div>
+      <div class="mx-2 w-2/12 pr-4 h-12 flex justify-between px-3 items-center border border-transparent bg-white focus-within:border-slate-300 rounded-lg">
         <div class="w-full">
           <input type="text" class="w-full bg-transparent outline-none placeholder:text-slate-400" placeholder="닉네임" />
         </div>
       </div>
-      <div class="mx-2 w-3/6 h-12 flex justify-between px-3 items-center border border-transparent bg-white focus-within:border-slate-300 rounded-lg">
+      <div class="mx-2 w-5/12 h-12 flex justify-between px-3 items-center border border-transparent bg-white focus-within:border-slate-300 rounded-lg">
         <div class="w-full">
           <input type="text" class="w-full bg-transparent outline-none placeholder:text-slate-400" placeholder="리뷰 남기기" />
         </div>
       </div>
-      <div class="mx-2 w-1/6 h-12 flex justify-between items-center border border-transparent bg-white focus-within:border-slate-300 rounded-lg">
+      <div class="mx-2 w-1/12 h-12 flex justify-between items-center border border-transparent bg-white focus-within:border-slate-300 rounded-lg">
         <div class="w-full h-full flex justify-center">
           <button type="button" class="w-full h-full bg-blue-500 hover:bg-blue-700 hover:text-white text-white">등록하기</button>
         </div>
