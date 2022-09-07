@@ -149,8 +149,8 @@
 
 
 
-      <div class="grid gap-6 mt-16 -mx-6 sm:gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-        <div class="px-6 py-4 transition-colors duration-200 transform rounded-lg bg-gray-100 hover:bg-gray-700 text-black hover:text-white">
+      <div class="grid gap-6 mt-16 -mx-6 sm:gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 mb-20">
+        <div class="px-6 py-4 transition-colors duration-200 transform rounded-lg bg-gray-100 hover:bg-gray-300 text-black hover:text-black">
             <p class="text-lg font-medium">Intro</p>
             <h4 class="mt-2 text-4xl font-semibold">$19 <span class="text-base font-normal text-gray-600 dark:text-gray-400">/ Month</span></h4>
             <p class="mt-4 text-gray-500 dark:text-gray-300">For most businesses that want to optimaize web queries.</p>
@@ -202,7 +202,7 @@
             </button>
         </div>
 
-        <div class="px-6 py-4 transition-colors duration-200 transform rounded-lg bg-gray-100 hover:bg-gray-700 text-black hover:text-white">
+        <div class="px-6 py-4 transition-colors duration-200 transform rounded-lg bg-gray-100 hover:bg-gray-300 text-black hover:text-black">
             <p class="text-lg font-medium">Base</p>
             <h4 class="mt-2 text-4xl font-semibold">$39 <span class="text-base font-normal text-gray-600 dark:text-gray-400">/ Month</span></h4>
             <p class="mt-4 text-gray-500 dark:text-gray-300">For most businesses that want to optimaize web queries.</p>
@@ -254,10 +254,10 @@
             </button>
         </div>
 
-        <div class="px-6 py-4 transition-colors duration-200 transform rounded-lg bg-gray-100 hover:bg-gray-700 text-black hover:text-white">
-            <p class="text-lg font-medium">Popular</p>
-            <h4 class="mt-2 text-4xl font-semibold">$99 <span class="text-base font-normal text-gray-400">/ Month</span></h4>
-            <p class="mt-4 text-gray-300">For most businesses that want to optimaize web queries.</p>
+        <div class="px-6 py-4 transition-colors duration-200 transform rounded-lg bg-gray-100 hover:bg-gray-300 text-black hover:text-black">
+            <p class="text-lg font-medium">Exterprise</p>
+            <h4 class="mt-2 text-4xl font-semibold">$199 <span class="text-base font-normal text-gray-600 dark:text-gray-400">/ Month</span></h4>
+            <p class="mt-4 text-gray-500 dark:text-gray-300">For most businesses that want to optimaize web queries.</p>
 
             <div class="mt-8 space-y-8">
                 <div class="flex items-center">
@@ -265,7 +265,7 @@
                         <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
                     </svg>
 
-                    <span class="mx-4 text-gray-300">All limited links</span>
+                    <span class="mx-4 text-gray-700 dark:text-gray-300">All limited links</span>
                 </div>
 
                 <div class="flex items-center">
@@ -273,7 +273,7 @@
                         <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
                     </svg>
 
-                    <span class="mx-4 text-gray-300">Own analytics platform</span>
+                    <span class="mx-4 text-gray-700 dark:text-gray-300">Own analytics platform</span>
                 </div>
 
                 <div class="flex items-center">
@@ -281,7 +281,7 @@
                         <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
                     </svg>
 
-                    <span class="mx-4 text-gray-300">Chat support</span>
+                    <span class="mx-4 text-gray-700 dark:text-gray-300">Chat support</span>
                 </div>
 
                 <div class="flex items-center">
@@ -289,7 +289,7 @@
                         <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
                     </svg>
 
-                    <span class="mx-4 text-gray-300">Optimize hashtags</span>
+                    <span class="mx-4 text-gray-700 dark:text-gray-300">Optimize hashtags</span>
                 </div>
 
                 <div class="flex items-center">
@@ -297,7 +297,7 @@
                         <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
                     </svg>
 
-                    <span class="mx-4 text-gray-300">Unlimited users</span>
+                    <span class="mx-4 text-gray-700 dark:text-gray-300">Unlimited users</span>
                 </div>
             </div>
 
@@ -306,7 +306,7 @@
             </button>
         </div>
 
-        <div class="px-6 py-4 transition-colors duration-200 transform rounded-lg bg-gray-100 hover:bg-gray-700 text-black hover:text-white">
+        <div class="px-6 py-4 transition-colors duration-200 transform rounded-lg bg-gray-100 hover:bg-gray-300 text-black hover:text-black">
             <p class="text-lg font-medium">Exterprise</p>
             <h4 class="mt-2 text-4xl font-semibold">$199 <span class="text-base font-normal text-gray-600 dark:text-gray-400">/ Month</span></h4>
             <p class="mt-4 text-gray-500 dark:text-gray-300">For most businesses that want to optimaize web queries.</p>
